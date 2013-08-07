@@ -5,7 +5,8 @@ use strict;
 use warnings;
 use Data::Dump::Filtered qw();
 
-use Exporter;
+require Exporter;
+our @ISA = qw(Exporter);
 our @EXPORT = qw(dd);
 
 # VERSION
