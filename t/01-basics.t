@@ -1,4 +1,4 @@
-#!perl -T
+#!perl
 
 use 5.010;
 use strict;
@@ -11,7 +11,8 @@ use Test::More;
 
 sub dd_ {
     my @args = @_;
-    capture_merged { dd @args };
+    #capture_merged { dd @args };
+    dd @args;
 }
 
 my $now  = DateTime->now;

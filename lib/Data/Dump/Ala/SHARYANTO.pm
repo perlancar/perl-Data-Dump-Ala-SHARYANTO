@@ -1,11 +1,11 @@
 package Data::Dump::Ala::SHARYANTO;
 
-use 5.010;
+use 5.010001;
 use strict;
 use warnings;
 use Data::Dump::Filtered qw();
 
-use Exporter::Lite;
+use Exporter;
 our @EXPORT = qw(dd);
 
 # VERSION
